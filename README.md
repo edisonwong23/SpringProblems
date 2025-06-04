@@ -25,16 +25,20 @@ This problem asks to create an application or function that calculates the 1000t
 | 8         | 1256 |
 | ...       | ...  |
 
-```bash
-a(1) = 1
-For even n, a(n) = a(n-1) * n
-For odd n, a(n) = a(n-1) + n
+| $n$ | $a(n)$ explanation | $a(n)$ value |
+| --- | ------------------ | ------------ |
+| 1   | given              | 1            |
+| 2   | $1 \times 2$       | 2            |
+| 3   | $2 + 3$            | 5            |
+| 4   | $5 \times 4$       | 20           |
+| 5   | $20 + 5$           | 25           |
+| 6   | $25 \times 6$      | 150          |
+| 7   | $150 + 7$          | 157          |
+| 8   | $157 \times 8$     | 1256         |
+| 9   | $1256 + 9$         | 1265         |
+| 10  | $1265 \times 10$   | 12650        |
+| ... | ...                | ...          |
 
-n = 2 → even → term = 1 × 2 = 2
-n = 3 → odd  → term = 2 + 3 = 5
-n = 4 → even → term = 5 × 4 = 20
-n = 5 → odd  → term = 20 + 5 = 25
-```
 
 
 ## Problem 2: Character Replacement in a File
